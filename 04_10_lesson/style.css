@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ text-decoration: none;
+}
+
+body {
+ background: var(--Dark, #0b1d26);
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 130px;
+ margin: 130px 20px;
+}
+
+.container__left {
+ width: 100%;
+ max-width: 640px;
+ height: 100%;
+ min-height: 712px;
+ padding: 30px;
+ font-family: 'Open Sans', sans-serif;
+ position: relative;
+}
+
+.number {
+ position: absolute;
+ top: 185px;
+ left: -71px;
+ color: var(--White, #fff);
+ font-size: 200px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 0%; /* 0px */
+ letter-spacing: 4.2px;
+ text-transform: uppercase;
+ opacity: 0.1;
+}
+
+.name {
+ display: flex;
+ align-items: center;
+ gap: 30px;
+ margin-top: 127px;
+}
+
+.name__line {
+ width: 70px;
+ height: 2px;
+ background: #f7df1e;
+}
+
+.name__text {
+ color: var(--Primary, #f7df1e);
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 32.2px; /* 230% */
+ letter-spacing: 4.2px;
+ text-transform: uppercase;
+}
+
+.title {
+ color: var(--White, #fff);
+ font-family: 'Brygada 1918', serif;
+ font-size: 64px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 70.4px;
+ margin-top: 22px;
+}
+
+.description {
+ margin-top: 65px;
+ max-width: 580px;
+ color: var(--White, #fff);
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 36.8px;
+}
+
+.link {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ color: var(--Primary, #f7df1e);
+ font-size: 17px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 39.1px;
+ margin-top: 16px;
+}
+
+.link > div:last-child {
+ font-family: Arial;
+ font-size: 25.5px;
+ line-height: 25.5px;
+ padding-bottom: 2px;
+}
+
+.container__right {
+}
+
